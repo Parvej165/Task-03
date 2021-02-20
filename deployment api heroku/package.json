@@ -1,0 +1,23 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "strt": "node src/app.js",
+    "dev" : "nodemon src/app.js",
+    "start": "set NODE_ENV=development && node src/app.js",
+    "start-prod": "set NODE_ENV=production && node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "engines": {
+    "node": "14.15.4"
+  }
+}
